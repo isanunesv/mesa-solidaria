@@ -1,11 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML TESTE</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Testando código HTML</h1>
+    <div class="container">
+        <div class="left-section">
+            <img src="front-view-young-male-courier-red-uniform-cape-holding-paper-food-package-pink-background.jpg" alt="Delivery Man">
+            <h2>Sua empresa pede</h2>
+            <p>
+                Participe da Mesa Solidária
+Reduza o Desperdício
+Ofereça produtos e apoie pessoas em vulnerabilidade social. Cadastre sua empresa.
+            </p>
+            <p>Comece agora a revolução do seu negócio</p>
+        </div>
+        <div class="right-section">
+            <h2>Cadastre-se</h2>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Nome completo" required>
+                
+                <label for="Telefone">Telefone</label>
+                <input type="tel" placeholder="Telefone" required>
+                <form>
+                    <label for="Nome Empresa">Nome Empresa</label>
+                    <input type="text" name="nome_empresa" placeholder="Nome da Empresa" required>
+                    
+                    <label for="CNPJ">CNPJ</label>
+                    <input type="text" name="cnpj" placeholder="CNPJ" required>
+                    <label for="Endereço">Endereço</label>
+                    <input type="text" name="endereco" placeholder="Endereço" required>
+                    <label for="Cidade">Cidade</label>
+                    <input type="text" name="cidade" placeholder="Cidade" required>
+                    <label for="Estado">Estado</label>
+                    <input type="text" name="estado" placeholder="Estado" required>
+                    <label for="Cep">Cep</label>
+                    <input type="text" name="cep" placeholder="CEP" required>
+                    <label for="Nome do Responsável">Nome do Responsável</label>
+                    <input type="text" name="nome_responsavel" placeholder="Nome do Responsável" required>
+                    <label for="Email">Email</label>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <label for="Senha">Senha</label>
+                    <input type="password" name ="password" placeholder="Senha" required>
+                    <label for="Confirme sua Senha">Confirme sua Senha</label>
+                    <input type="password" placeholder="Confirme Senha" id="confirm_password" required>
+                    <button type="submit">Cadastrar</button>
+                    <div class="checkbox-container">
+                        <input type="checkbox" name="termos" required>
+                        <label for="termos">Eu concordo com os <a href="#" target="_blank">termos de responsabilidades</a></label>
+                    </div>
+                </form>
+            </form>
 </body>
 </html>
